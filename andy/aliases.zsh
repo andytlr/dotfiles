@@ -1,0 +1,7 @@
+alias andy='cd ~/Dropbox/Websites/andy-taylor'
+alias j='cd ~/Ferocia/johanna'
+alias jd='cd ~/Ferocia/johanna-design'
+alias fs='foreman start'
+alias sass='sass --watch _scss/main.scss:assets/styles.css --style compressed'
+alias deploy='sh deploy.sh'
+alias dp='sh deploy.sh'

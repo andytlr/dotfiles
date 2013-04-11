@@ -10,6 +10,9 @@ git_current_branch() {
   command git symbolic-ref HEAD 2> /dev/null | sed -e 's/refs\/heads\///'
 }
 
+# add and remove new/deleted files from git index automatically
+alias ar="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-index --add --remove"
+
 alias ga='git add'
 alias gap='ga -p'
 alias gau='git add -u'

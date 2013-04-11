@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = Justin Morris
-        email = justin@pixelbloom.com
+        name = Andy Taylor
+        email = andytlr@gmail.com
         helper = osxkeychain
 [color]
         diff = auto
