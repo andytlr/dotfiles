@@ -6,4 +6,4 @@
 4. `brew install zsh`
 5. `sh ./script/bootstrap`
 6. `which zsh` copy the path and in Terminal.app settings. Set 'Shells open with' to the path you copied.
-7. Updated `.dotfiles/git/gitconfig.symlink` with user details.
+7. Update `.dotfiles/git/gitconfig.symlink` with user details.
