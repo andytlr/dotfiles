@@ -7,5 +7,3 @@
 5. `sh ./script/bootstrap`
 6. `which zsh` copy the path and in Terminal.app settings. Set 'Shells open with' to the path you copied.
 7. Update `.dotfiles/git/gitconfig.symlink` with user details.
-
-![](lib/Andy.Terminal.png)
