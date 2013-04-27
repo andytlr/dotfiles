@@ -12,6 +12,3 @@ alias d='gd $argv'
 alias be='bundle exec $argv'
 
 alias dotfiles='subl ~/.dotfiles;'
-
-alias TOPGUN="open 'http://www.youtube.com/watch?v=NEOem7U2LPE'"
-alias IGNITION="open 'http://pixelbloom.com/ride-of-the-valkyries'"
