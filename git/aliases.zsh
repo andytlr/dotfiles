@@ -11,9 +11,9 @@ git_current_branch() {
 }
 
 # add and remove new/deleted files from git index automatically
-alias addremove="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-index --add --remove"
-alias ar="addremove & s"
+alias ar="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-index --add --remove"
 alias gb="git branch"
+alias gc-undo="git reset --soft HEAD^"
 
 alias ga='git add'
 alias gap='ga -p'
