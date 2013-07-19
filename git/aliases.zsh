@@ -12,8 +12,12 @@ git_current_branch() {
 
 # add and remove new/deleted files from git index automatically
 alias ar="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-index --add --remove"
+
 alias gb="git branch"
 alias gc-undo="git reset --soft HEAD^"
+
+# Commit. A combination of add and remove all files and commit.
+alias c="ar && gc"
 
 alias ga='git add'
 alias gap='ga -p'
