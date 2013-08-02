@@ -1,6 +1,7 @@
 alias andy='cd ~/Dropbox/Websites/andy-taylor'
 alias j='cd ~/Ferocia/johanna'
 alias f='cd ~/Ferocia/fub'
+alias build='./script/cibuild'
 alias jd='cd ~/Ferocia/johanna-design'
 alias ji='cd ~/Ferocia/johanna-ios'
 alias fs='foreman start'
