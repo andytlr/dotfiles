@@ -38,6 +38,9 @@ alias gdc='git diff --cached -M'
 alias gdc.='git diff --cached -M --color-words="."'
 alias gdcw='git diff --cached $color_ruby_words'
 alias gds='gitd --stat'
+
+# Filters down to only conflicting files.
+alias gdn='git diff --name-only --diff-filter=U'
 alias gf='git fetch'
 alias glog='git log $git_concise_log_format'
 alias gl='glog --graph'
