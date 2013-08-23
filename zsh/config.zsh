@@ -38,3 +38,11 @@ export WORDCHARS='*?[]~=&;!#$%^(){}'
 # mappings for Ctrl/Option-left-arrow and Ctrl/Option-right-arrow for word moving
 bindkey "\e\e[C"  forward-word
 bindkey "\e\e[D"  backward-word
+
+## Completions
+autoload -U compinit
+compinit -C
+
+## case-insensitive (all),partial-word and then substring completion
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
+    'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
