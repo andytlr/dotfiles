@@ -16,6 +16,12 @@ alias ar="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-inde
 alias gb="git branch"
 alias gc-undo="git reset --soft HEAD^"
 
+# Checkout master and smart pull
+alias master='gco master && gup'
+
+# Commit message. I.e. cm "derp"`
+alias cm='git commit -am'
+
 # Commit. A combination of add and remove all files and commit.
 alias c="ar && gc"
 
