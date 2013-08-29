@@ -19,6 +19,9 @@ alias gc-undo="git reset --soft HEAD^"
 # Checkout master and smart pull
 alias master='gco master && gup'
 
+# Clean up repo.
+alias git-clean='gco master && gup && git-delete-local-merged'
+
 # Commit message. I.e. cm "derp"`
 alias cm='git commit -am'
 
