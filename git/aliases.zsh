@@ -28,6 +28,12 @@ alias cm='git commit -am'
 # Commit. A combination of add and remove all files and commit.
 alias c="ar && gc"
 
+git_current_branch() {
+  cat "$(git rev-parse --git-dir 2>/dev/null)/HEAD" | sed -e 's/^.*refs\/heads\///'
+}
+alias gpthis='gp origin $(git_current_branch)'
+alias gpthis!='gp --set-upstream origin $(git_current_branch)'
+
 alias ga='git add'
 alias gap='ga -p'
 alias gau='git add -u'
