@@ -1,7 +1,7 @@
 alias andy='cd ~/Dropbox/Websites/andy-taylor'
 alias j='cd ~/Ferocia/johanna'
 alias f='cd ~/Ferocia/fub'
-alias specs='script/spec'
+alias specs='PARALLEL=true script/spec'
 alias jd='cd ~/Ferocia/johanna-design'
 alias ji='cd ~/Ferocia/johanna-ios'
 alias fs='foreman start'
