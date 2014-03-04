@@ -34,6 +34,7 @@ git_current_branch() {
 alias gpthis='gp origin $(git_current_branch)'
 alias gpthis!='gp --set-upstream origin $(git_current_branch)'
 
+alias a='atom .'
 alias ga='git add'
 alias gap='ga -p'
 alias gau='git add -u'

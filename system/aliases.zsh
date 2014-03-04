@@ -11,4 +11,4 @@ alias d='gd $argv'
 
 alias be='bundle exec $argv'
 
-alias dotfiles='subl ~/.dotfiles;'
+alias dotfiles='atom ~/.dotfiles;'
